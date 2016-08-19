@@ -1,10 +1,8 @@
 ##Outline
 
-This is a simple wrapper around a standard HashMap to support configurable expiry. 
-
+This is an implemenataion of cache where enries expire after certain time. 
 Keys can be written with an associated timeout. 
-
-Eviction is automatically scheduled using a background thread. 
+Cache entriy expiration is scheduled using a background thread. 
 
 
 ###Notes on the Implementation
